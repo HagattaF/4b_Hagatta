@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="132.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.AlunoController">
+   <children>
+      <Label layoutX="20.0" layoutY="20.0" />
+      <Label layoutX="20.0" layoutY="20.0" text="Digite Seu Nome:" />
+      <TextField layoutX="120.0" layoutY="16.0" prefHeight="25.0" prefWidth="209.0" />
+      <Button layoutX="129.0" layoutY="60.0" mnemonicParsing="false" text="Excluir" />
+      <Button layoutX="225.0" layoutY="60.0" mnemonicParsing="false" text="Salvar" />
+   </children>
+</AnchorPane>
